@@ -13,7 +13,7 @@
 # Note, for the email address it is acceptable to have a mailing list for a team
 # because projects often have multiple people who may rotate on the team.
 repositories:
-  - name: keel
+  - alias: keel
     url: https://gist.githubusercontent.com/rusenask/9ed5c505e31a9b9c89b8591b5ca660e3/raw/da1cdca0c3b10226eb90834b1b72e8403495758c/sunstone_test.yaml
     maintainers:
       - name: Karolis Rusenas
