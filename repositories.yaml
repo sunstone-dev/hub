@@ -1,0 +1,20 @@
+# This file contains the contact information for repositories exposed through
+# the Sunstone registry. Each repository has an alias, a url to a file and
+# one or more maintainers.
+#
+# The structure of the repositories object is:
+# repositories:
+#  - alias: example
+#    url: https://example.com/deployment.yaml
+#    maintainers:
+#      - name: foo
+#        email: foo@example.com
+#
+# Note, for the email address it is acceptable to have a mailing list for a team
+# because projects often have multiple people who may rotate on the team.
+repositories:
+  - name: keel
+    url: https://gist.githubusercontent.com/rusenask/9ed5c505e31a9b9c89b8591b5ca660e3/raw/da1cdca0c3b10226eb90834b1b72e8403495758c/sunstone_test.yaml
+    maintainers:
+      - name: Karolis Rusenas
+        email: karolis@webhookrelay.com
