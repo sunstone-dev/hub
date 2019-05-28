@@ -14,7 +14,7 @@
 # because projects often have multiple people who may rotate on the team.
 repositories:
   - alias: keel
-    url: https://gist.githubusercontent.com/rusenask/9ed5c505e31a9b9c89b8591b5ca660e3/raw/da1cdca0c3b10226eb90834b1b72e8403495758c/sunstone_test.yaml
+    url: https://gist.githubusercontent.com/rusenask/9ed5c505e31a9b9c89b8591b5ca660e3/raw/3ce05d722ee02c5fbdd3d52c3ac5b04a5bba1de2/sunstone_test.yaml
     maintainers:
       - name: Karolis Rusenas
         email: karolis@webhookrelay.com
