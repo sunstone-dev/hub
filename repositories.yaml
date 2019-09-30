@@ -15,11 +15,18 @@
 repositories:
   - alias: keel
     url: https://raw.githubusercontent.com/keel-hq/keel/master/deployment/deployment-template.yaml
+    logoUrl: https://keel.sh/img/logo_small.png
     maintainers:
       - name: Karolis Rusenas
         email: karolis@webhookrelay.com
+    variables:
+      - username
+      - password
   - alias: dotscience
     url: https://raw.githubusercontent.com/dotmesh-io/deployment-manifests/master/deployer/dotscience-deployer.yml
+    logoUrl: ""
+    variables:
+      - token
     maintainers:
       - name: Karolis Rusenas
         email: karolis@webhookrelay.com
