@@ -27,6 +27,8 @@ repositories:
     logoUrl: ""
     variables:
       - token
+    requiredVariables:
+      - token
     maintainers:
       - name: Karolis Rusenas
         email: karolis@webhookrelay.com
