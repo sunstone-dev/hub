@@ -19,6 +19,7 @@ repositories:
     maintainers:
       - name: Karolis Rusenas
         email: karolis@webhookrelay.com
+        username: rusenask
     variables:
       - username
       - password
@@ -32,3 +33,7 @@ repositories:
     maintainers:
       - name: Karolis Rusenas
         email: karolis@webhookrelay.com
+        username: rusenask
+      - name: Kai Davenport
+        email: kaiyadavenport@gmail.com
+        username: binocarlos
