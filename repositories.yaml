@@ -48,3 +48,32 @@ repositories:
       - name: Kai Davenport
         email: kaiyadavenport@gmail.com
         username: binocarlos
+  - alias: webrelay-ingress
+    url: https://raw.githubusercontent.com/sunstone-dev/library/master/webrelay-ingress/webrelay-ingress.yaml
+    logoUrl: https://avatars2.githubusercontent.com/u/24842115?s=80&v=4
+    maintainers:
+      - name: Karolis Rusenas
+        email: karolis@webhookrelay.com
+        username: rusenask
+    requiredVariables:
+      - key
+      - secret
+    variables:
+      - key
+      - secret
+      - relay_name
+      - namespace
+      - tag
+  - alias: redis-commander
+    url: https://raw.githubusercontent.com/sunstone-dev/library/master/redis-commander/redis-commander.yaml
+    logoUrl: https://raw.githubusercontent.com/sunstone-dev/library/master/redis-commander/logo.png
+    maintainers:
+      - name: Karolis Rusenas
+        email: karolis@webhookrelay.com
+        username: rusenask
+    variables:
+      - redis_host
+      - tag
+      - whr_host 
+      - namespace
+      - tag
