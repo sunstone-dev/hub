@@ -50,7 +50,7 @@ repositories:
         username: binocarlos
   - alias: webrelay-ingress
     url: https://raw.githubusercontent.com/sunstone-dev/library/master/webrelay-ingress/webrelay-ingress.yaml
-    logoUrl: https://avatars2.githubusercontent.com/u/24842115?s=80&v=4
+    logoUrl: https://github.com/webhookrelay.png?size=80
     maintainers:
       - name: Karolis Rusenas
         email: karolis@webhookrelay.com
@@ -76,4 +76,14 @@ repositories:
       - tag
       - whr_host 
       - namespace
+  - alias: redis
+    url: https://raw.githubusercontent.com/sunstone-dev/library/master/redis/redis-deployment.yaml
+    logoUrl: https://github.com/redis.png?size=80
+    maintainers:
+      - name: Karolis Rusenas
+        email: karolis@webhookrelay.com
+        username: rusenask
+    variables:
       - tag
+      - redis-data-pd 
+      - namespace
