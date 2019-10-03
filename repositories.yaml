@@ -28,6 +28,10 @@ repositories:
     logoUrl: https://github.com/dotmesh-io.png?size=80
     variables:
       - token
+      - namespace
+      - update_policy
+      - gateway
+      - tag
     required:
       - token
     maintainers:
