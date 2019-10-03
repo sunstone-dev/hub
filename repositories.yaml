@@ -6,9 +6,16 @@
 # repositories:
 #  - alias: example
 #    url: https://example.com/deployment.yaml
+#    variables:
+#      - variable-1
+#      - variable-2
+#    requiredVariables:
+#      - variable-2      # required variables to generate template
+#    logoUrl: https://example.com/repo_logo.png
 #    maintainers:
 #      - name: foo
 #        email: foo@example.com
+#        username: github-username
 #
 # Note, for the email address it is acceptable to have a mailing list for a team
 # because projects often have multiple people who may rotate on the team.
@@ -32,7 +39,7 @@ repositories:
       - update_policy
       - gateway
       - tag
-    required:
+    requiredVariables:
       - token
     maintainers:
       - name: Karolis Rusenas
