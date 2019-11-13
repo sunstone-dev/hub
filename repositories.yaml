@@ -64,6 +64,9 @@ repositories:
       - relay_name
       - namespace
       - tag
+      - region
+      - api_address
+      - tunnel_address
   - alias: redis-commander
     url: https://raw.githubusercontent.com/sunstone-dev/library/master/redis-commander/redis-commander.yaml
     logoUrl: https://raw.githubusercontent.com/sunstone-dev/library/master/redis-commander/logo.png
