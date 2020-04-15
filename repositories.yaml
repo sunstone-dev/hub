@@ -48,6 +48,24 @@ repositories:
       - name: Kai Davenport
         email: kaiyadavenport@gmail.com
         username: binocarlos
+  - alias: dotscience-beta
+    url: https://raw.githubusercontent.com/dotmesh-io/deployment-manifests/master/deployer/dotscience-deployer-beta.yml
+    logoUrl: https://github.com/dotmesh-io.png?size=80
+    variables:
+      - token
+      - namespace
+      - update_policy
+      - gateway
+      - tag
+    requiredVariables:
+      - token
+    maintainers:
+      - name: Karolis Rusenas
+        email: karolis@webhookrelay.com
+        username: rusenask
+      - name: Kai Davenport
+        email: kaiyadavenport@gmail.com
+        username: binocarlos
   - alias: webrelay-ingress
     url: https://raw.githubusercontent.com/sunstone-dev/library/master/webrelay-ingress/webrelay-ingress.yaml
     logoUrl: https://github.com/webhookrelay.png?size=80
